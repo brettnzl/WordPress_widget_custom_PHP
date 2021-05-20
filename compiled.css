@@ -1,0 +1,1022 @@
+@font-face {
+  font-family: 'Univers LT Extended Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Extended Oblique'), url('assets/fonts/Univers LT 53 Extended Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Extended';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Extended'), url('assets/fonts/Univers LT 53 Extended.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Oblique'), url('assets/fonts/Univers LT 55 Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Roman'), url('assets/fonts/Univers LT 55 Roman.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Condensed Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Condensed Oblique'), url('assets/fonts/Univers LT 57 Condensed Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Condensed'), url('assets/fonts/Univers LT 57 Condensed.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Ultra Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Ultra Condensed'), url('assets/fonts/Univers LT 59 Ultra Condensed.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Thin Ultra Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Thin Ultra Condensed'), url('assets/fonts/Univers LT 39 Thin Ultra Condensed.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Light Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Light Oblique'), url('assets/fonts/Univers LT 45 Light Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Light'), url('assets/fonts/Univers LT 45 Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Light Condensed Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Light Condensed Oblique'), url('assets/fonts/Univers LT 47 Light Condensed Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Light Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Light Condensed'), url('assets/fonts/Univers LT 47 Light Condensed.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Light Ultra Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Light Ultra Condensed'), url('assets/fonts/Univers LT 49 Light Ultra Condensed.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Bold Extended Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Bold Extended Oblique'), url('assets/fonts/Univers LT 63 Bold Extended Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Bold Extended';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Bold Extended'), url('assets/fonts/Univers LT 63 Bold Extended.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Bold Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Bold Oblique'), url('assets/fonts/Univers LT 65 Bold Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Bold'), url('assets/fonts/Univers LT 65 Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Bold Condensed Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Bold Condensed Oblique'), url('assets/fonts/Univers LT 67 Bold Condensed Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Bold Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Bold Condensed'), url('assets/fonts/Univers LT 67 Bold Condensed.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Black Extended Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Black Extended Oblique'), url('assets/fonts/Univers LT 73 Black Extended Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Black Extended';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Black Extended'), url('assets/fonts/Univers LT 73 Black Extended.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Black Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Black Oblique'), url('assets/fonts/Univers LT 75 Black Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Black'), url('assets/fonts/Univers LT 75 Black.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Extra Black Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Extra Black Oblique'), url('assets/fonts/Univers LT 85 Extra Black Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Extra Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Extra Black'), url('assets/fonts/Univers LT 85 Extra Black.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Extra Black Extended Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Extra Black Extended Oblique'), url('assets/fonts/Univers LT 93 Extra Black Extended Oblique.woff') format('woff');
+}
+@font-face {
+  font-family: 'Univers LT Extra Black Extended';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers LT Extra Black Extended'), url('assets/fonts/Univers LT 93 Extra Black Extended.woff') format('woff');
+}
+html body a {
+  text-decoration: none !important;
+}
+html body * {
+  font-family: 'Univers LT Roman';
+}
+html body .h1 {
+  font-size: 48px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Univers LT Extra Black';
+}
+html body .h2 {
+  font-size: 42px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Univers LT Black';
+}
+html body .h3 {
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Univers LT Black';
+}
+html body .h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  font-family: 'Univers LT Roman';
+}
+html body .flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+html body .overlay {
+  content: "";
+  background: rgba(0,0,0,0.6);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+}
+html body .button-primary {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px 30px !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  background: #000000;
+  color: white;
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  -webkit-flex: 0 auto;
+  -moz-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  width: auto;
+}
+html body .button-primary:after {
+  content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=white&height=32');
+  margin-left: 10px;
+  top: 5px;
+  position: relative;
+}
+html body .button-secondary {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px 30px !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  background: #000000;
+  color: white;
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  -webkit-flex: 0 auto;
+  -moz-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  width: auto;
+  background: transparent;
+  border-color: white;
+}
+html body .button-secondary:after {
+  content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=white&height=32');
+  margin-left: 10px;
+  top: 5px;
+  position: relative;
+}
+html body .button-third {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px 30px !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  background: #000000;
+  color: white;
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  -webkit-flex: 0 auto;
+  -moz-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  width: auto;
+  color: #000000;
+  background: transparent;
+}
+html body .button-third:after {
+  content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=white&height=32');
+  margin-left: 10px;
+  top: 5px;
+  position: relative;
+}
+html body .button-third:after {
+  content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=black&height=32');
+}
+html body h1 {
+  font-size: 48px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Univers LT Extra Black';
+}
+html body h2 {
+  font-size: 42px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Univers LT Black';
+}
+html body h3 {
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Univers LT Black';
+}
+html body h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  font-family: 'Univers LT Roman';
+}
+html body.liftoff header.header {
+  background: rgba(0,0,0,0.9);
+}
+html body:not(.home) header.header {
+  position: relative;
+  background: white;
+}
+html body:not(.home) header.header .hfg_header.site-header .nv-nav-wrap .menu-item a {
+  color: #000000;
+}
+html body:not(.home) header.header .hfg_header.site-header .builder-item.hfg-item-first {
+  background: #000000;
+}
+html body:not(.home) header.header .hfg_header.site-header .builder-item.hfg-item-first .site-logo {
+  justify-content: center;
+}
+html body:not(.home) header.header .hfg_header.site-header .nv-html-content p {
+  color: #000000;
+}
+html body:not(.home) header.header .hfg_header.site-header .nv-html-content p a {
+  color: #000000;
+}
+html body header.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+html body header.header .hfg-item-last {
+  justify-content: flex-end;
+}
+html body header.header .hfg-item-last .item--inner {
+  margin-left: 30px;
+}
+html body header.header .button-primary:after {
+  display: none;
+}
+html body header.header .hfg_header.site-header {
+  box-shadow: none;
+}
+html body header.header .hfg_header.site-header .builder-item {
+  padding: 10px;
+}
+html body header.header .hfg_header.site-header .nv-nav-wrap .menu-item a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+html body header.header .hfg_header.site-header .nv-nav-wrap li:not(:last-of-type) {
+  margin-right: 30px;
+}
+html body header.header .hfg_header.site-header .nv-html-content p {
+  color: white;
+}
+html body header.header .hfg_header.site-header .nv-html-content p a {
+  color: white;
+}
+html body main#content .entry-content #sectionHero {
+  position: relative;
+  min-height: 400px;
+}
+html body main#content .entry-content #sectionHero:before {
+  content: "";
+  background: transparent linear-gradient(0deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%) 0% 0% no-repeat padding-box;
+  left: 0;
+  right: 0;
+  height: 150px;
+  z-index: 9;
+  top: 0;
+  position: absolute;
+}
+html body main#content .entry-content #sectionHero ul {
+  padding: 0;
+  margin: 0;
+}
+html body main#content .entry-content #sectionHero ul li {
+  display: inline-block;
+  color: white;
+  padding-right: 100px;
+  font-size: 24px;
+  position: relative;
+}
+html body main#content .entry-content #sectionHero ul li:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: white;
+  margin-left: 20px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+html body main#content .entry-content #sectionHero ul li:last-child:after {
+  display: none;
+}
+html body main#content .entry-content #sectionHero ul li .btn-arrow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px 30px !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  background: #000000;
+  color: white;
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  -webkit-flex: 0 auto;
+  -moz-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  width: auto;
+}
+html body main#content .entry-content #sectionHero ul li .btn-arrow:after {
+  content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=white&height=32');
+  margin-left: 10px;
+  top: 5px;
+  position: relative;
+}
+html body main#content .entry-content #sectionIntro {
+  position: relative;
+}
+html body main#content .entry-content #sectionIntro * {
+  color: white;
+}
+html body main#content .entry-content #sectionIntro:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 50vw 0px 0;
+  border-color: transparent #fff transparent transparent;
+}
+html body main#content .entry-content #sectionIntro:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 0 0px 50vw;
+  border-color: transparent transparent transparent #fff;
+}
+html body main#content .entry-content #sectionIntro .panel-grid-cell {
+  position: relative;
+}
+html body main#content .entry-content #sectionIntro .panel-grid-cell img {
+  width: 400px;
+}
+html body main#content .entry-content #sectionIntro .panel-grid-cell ul {
+  list-style: none;
+}
+html body main#content .entry-content #sectionIntro .panel-grid-cell ul li {
+  display: inline-block;
+}
+html body main#content .entry-content #sectionIntro .panel-grid-cell ul li a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px 30px !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  background: #000000;
+  color: white;
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  -webkit-flex: 0 auto;
+  -moz-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  width: auto;
+}
+html body main#content .entry-content #sectionIntro .panel-grid-cell ul li a:after {
+  content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=white&height=32');
+  margin-left: 10px;
+  top: 5px;
+  position: relative;
+}
+html body main#content .entry-content #sectionIntro .panel-grid-cell ul li:last-child a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px 30px !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  background: #000000;
+  color: white;
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  -webkit-flex: 0 auto;
+  -moz-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  width: auto;
+  background: transparent;
+  border-color: white;
+}
+html body main#content .entry-content #sectionIntro .panel-grid-cell ul li:last-child a:after {
+  content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=white&height=32');
+  margin-left: 10px;
+  top: 5px;
+  position: relative;
+}
+html body main#content .entry-content #sectionServices {
+  position: relative;
+}
+html body main#content .entry-content #sectionServices:after {
+  content: "";
+  position: absolute;
+  background-image: url(/wp-content/themes/core50/assets/img/light-grey-square.svg);
+  background-size: 8px;
+  background-repeat: repeat;
+  height: 180px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+html body main#content .entry-content #sectionServices:before {
+  position: absolute;
+  background-image: url(/wp-content/themes/core50/assets/img/red-square.svg);
+  background-size: 8px;
+  background-repeat: repeat;
+  content: "";
+  width: 100px;
+  height: 500px;
+  top: -30%;
+  left: 0;
+  z-index: 9;
+}
+html body main#content .entry-content #sectionServices .header-bg-text {
+  position: relative;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body main#content .entry-content #sectionServices .header-bg-text:before {
+  content: "SERVICES";
+  font-size: 130px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  font-weight: 900;
+  color: grey;
+  z-index: -1;
+  opacity: 0.1;
+}
+html body main#content .entry-content #sectionServices .featureImage {
+  position: relative;
+}
+html body main#content .entry-content #sectionServices .featureImage:before {
+  position: absolute;
+  background-image: url(/wp-content/themes/core50/assets/img/red-square.svg);
+  background-size: 8px;
+  background-repeat: repeat;
+  content: "";
+  width: 120px;
+  height: 120px;
+  top: -60px;
+  left: -60px;
+  z-index: -1;
+}
+html body main#content .entry-content #sectionServices #serviceContainer .so-panel {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+html body main#content .entry-content #sectionServices #serviceContainer .so-panel .service-block {
+  -webkit-flex: 0 20%;
+  -moz-flex: 0 20%;
+  -ms-flex: 0 20%;
+  flex: 0 20%;
+  width: 20%;
+}
+html body main#content .entry-content #sectionServices #serviceContainer .so-panel .service-block .contain {
+  position: relative;
+  margin: 10px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+html body main#content .entry-content #sectionServices #serviceContainer .so-panel .service-block .contain >a {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+html body main#content .entry-content #sectionServices #serviceContainer .so-panel .service-block .contain .icon img {
+  max-width: 60px;
+  padding-top: 30px;
+}
+html body main#content .entry-content #sectionServices #serviceContainer .so-panel .service-block .contain .title {
+  text-align: left;
+}
+html body main#content .entry-content #sectionServices #serviceContainer .so-panel .service-block .contain:before {
+  content: "";
+  background: rgba(0,0,0,0.6);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+}
+html body main#content .entry-content #sectionServices #serviceContainer .so-panel .service-block .contain a {
+  position: relative;
+}
+html body main#content .entry-content #sectionValues {
+  position: relative;
+}
+html body main#content .entry-content #sectionValues h2 {
+  text-align: left;
+  padding-bottom: 60px;
+}
+html body main#content .entry-content #sectionValues .button-primary {
+  margin: 0 auto;
+}
+html body main#content .entry-content #sectionValues .textwidget {
+  text-align: center;
+}
+html body main#content .entry-content #sectionValues:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: white;
+  z-index: 9;
+}
+html body main#content .entry-content #sectionValues:after {
+  position: absolute;
+  background-image: url(/wp-content/themes/core50/assets/img/red-square.svg);
+  background-size: 8px;
+  background-repeat: repeat;
+  content: "";
+  width: 100px;
+  height: 500px;
+  top: 50px;
+  right: 0;
+  z-index: 9;
+}
+html body main#content .entry-content #sectionValues .simpleParallax:before {
+  content: "";
+  background: rgba(0,0,0,0.6);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  z-index: 9;
+}
+html body main#content .entry-content #sectionValues .panel-grid-cell {
+  position: relative;
+  z-index: 10;
+}
+html body main#content .entry-content #sectionValues .panel-grid-cell h3 {
+  font-size: 70px;
+}
+html body main#content .entry-content #sectionValues .panel-grid-cell .text-white h3 {
+  color: white;
+}
+html body main#content .entry-content #sectionProjects .header-bg-text {
+  position: relative;
+  text-align: center;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body main#content .entry-content #sectionProjects .header-bg-text:before {
+  content: "PROJECTS";
+  font-size: 130px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  font-weight: 900;
+  color: grey;
+  z-index: -1;
+  opacity: 0.1;
+}
+html body main#content .entry-content #sectionProjects .textwidget {
+  text-align: center;
+}
+html body main#content .entry-content #sectionProjects .button-primary {
+  margin: 0 auto;
+}
+html body main#content .entry-content #sectionProjects #csLoop {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block {
+  -webkit-flex: 0 31%;
+  -moz-flex: 0 31%;
+  -ms-flex: 0 31%;
+  flex: 0 31%;
+  width: 31%;
+  margin-bottom: 30px;
+  position: relative;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block .cs-container {
+  position: relative;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block .cs-container:before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  width: 50%;
+  height: 50%;
+  background: #2C2F31;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block:first-child {
+  -webkit-flex: 0 100%;
+  -moz-flex: 0 100%;
+  -ms-flex: 0 100%;
+  flex: 0 100%;
+  width: 100%;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block:first-child .contain {
+  height: 500px;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block:first-child .more {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block:first-child .more .title {
+  margin-left: -30px;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block:first-child .more a.button-third {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  color: #BDBFBF;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block:first-child .more a.button-third:after {
+  content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=grey&height=32');
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block:first-child h4 {
+  font-size: 48px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Univers LT Extra Black';
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block:first-child .cs-container:before {
+  width: 35%;
+  left: auto;
+  right: -20px;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block .contain {
+  height: 350px;
+  width: 100%;
+  filter: grayscale(1);
+  background-size: cover;
+  position: relative;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block .contain a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block .more {
+  margin-top: 30px;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block .more h4 {
+  font-weight: 900;
+  margin: 0;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block .more h4 a {
+  color: #000000;
+}
+html body main#content .entry-content #sectionProjects #csLoop .cs-block .more .button-third {
+  padding: 0 !important;
+  border: none;
+}
+html body main#content .entry-content #sectionPartners {
+  position: relative;
+  background-image: url('/wp-content/themes/core50/assets/img/light-grey-square.svg');
+  background-size: 8px;
+  background-repeat: repeat;
+}
+html body main#content .entry-content #sectionPartners #sectionPartnerInner {
+  position: relative;
+}
+html body main#content .entry-content #sectionPartners #sectionPartnerInner:before {
+  content: "";
+  background: #BDBFBF;
+  left: 0;
+  top: 30px;
+  bottom: 30px;
+  width: 35%;
+  position: absolute;
+  z-index: 1;
+}
+html body main#content .entry-content #sectionPartners #sectionPartnerInner .panel-grid-cell {
+  position: relative;
+  z-index: 2;
+}
+html body main#content .entry-content #sectionPartners #sectionPartnerInner .panel-grid-cell h2 {
+  color: white;
+}
+html body main#content .entry-content #sectionForm {
+  position: relative;
+}
+html body main#content .entry-content #sectionForm:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  content: "";
+  background: white;
+  z-index: 1;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner {
+  position: relative;
+  text-align: center;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner:before {
+  content: "";
+  background: rgba(0,0,0,0.6);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner >.panel-grid-cell:first-child {
+  position: relative;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner >.panel-grid-cell:first-child:after {
+  position: absolute;
+  background-image: url('/wp-content/themes/core50/assets/img/red-square.svg');
+  background-size: 8px;
+  background-repeat: repeat;
+  content: "";
+  width: 150px;
+  height: 150px;
+  bottom: -80px;
+  left: -80px;
+  z-index: 1;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner .so-panel {
+  position: relative;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner .so-panel h2 {
+  color: white;
+  font-weight: 800;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner .so-panel img {
+  width: 450px;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner .so-panel #coreForm {
+  text-align: left;
+  z-index: 9;
+  position: relative;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner .so-panel #coreForm h3 {
+  color: #000000;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner .so-panel #coreForm #gform_submit_button_1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px 30px !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  background: #000000;
+  color: white;
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  -webkit-flex: 0 auto;
+  -moz-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  width: auto;
+}
+html body main#content .entry-content #sectionForm #sectionFormInner .so-panel #coreForm #gform_submit_button_1:after {
+  content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=white&height=32');
+  margin-left: 10px;
+  top: 5px;
+  position: relative;
+}
+html body footer#site-footer {
+  background-image: url('/wp-content/uploads/2021/05/black-bg.png');
+  background-color: unset;
+  color: white;
+}
+html body footer#site-footer img {
+  max-width: 220px !important;
+}
+html body footer#site-footer * {
+  color: white;
+}
+html body footer#site-footer ul#menu-services li {
+  width: 50%;
+  float: left;
+}
+html body footer#site-footer .footer-top-inner {
+  background: none;
+  padding: 60px 0;
+}
+html body footer#site-footer p.widget-title {
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Univers LT Black';
+  color: white;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+html body footer#site-footer p.widget-title:after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: white;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+html body footer#site-footer .container {
+  max-width: 1408px;
+  padding: 0;
+}
+html body footer#site-footer .container .builder-item {
+  padding: 0 15px 0 0;
+}
+html body footer#site-footer .nv-footer-content {
+  align-items: self-start;
+  justify-content: flex-start;
+  display: flex;
+}
+html body footer#site-footer .footer-content-wrap {
+  position: relative;
+}
+html body footer#site-footer .footer-content-wrap:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 55px;
+  height: 100px;
+  background-image: url('/wp-content/themes/core50/assets/img/light-grey-square.svg');
+  background-size: 8px;
+  background-repeat: repeat;
+}
+html body .copyright {
+  background: #000000;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+html body .copyright .flex {
+  justify-content: space-between;
+  align-items: center;
+}
+html body .copyright .flex a {
+  color: white;
+}

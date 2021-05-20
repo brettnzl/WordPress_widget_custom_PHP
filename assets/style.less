@@ -1,0 +1,877 @@
+@import '_fonts';
+
+// LESS Variables
+@red: #AE0721;
+@grey: #707070;
+@lightgrey: #BDBFBF;
+@bg: #F1F3F4;
+@black: #000000;
+@lightblack: #2C2F31;
+
+// Quaries
+@xl: ~"only screen and (max-width: 1408px)";
+@lg: ~"only screen and (max-width: 1200px)";
+@md: ~"only screen and (max-width: 960px)";
+@sm: ~"only screen and (max-width: 767px)";
+@mb: ~"only screen and (max-width: 480px)";
+
+// Body Styling
+html {
+    body {
+        a {
+            text-decoration: none !important;
+        }
+
+        * {
+            font-family: 'Univers LT Roman';
+        }
+
+        .h1 {
+            font-size: 48px;
+            color: @black;
+            text-transform: uppercase;
+            font-family: 'Univers LT Extra Black';
+        }
+
+        .h2 {
+            font-size: 42px;
+            color: @black;
+            text-transform: uppercase;
+            font-family: 'Univers LT Black';
+        }
+
+        .h3 {
+            font-size: 30px;
+            color: @black;
+            text-transform: uppercase;
+            font-family: 'Univers LT Black';
+        }
+
+        .h4 {
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-size: 18px;
+            font-family: 'Univers LT Roman';
+        }
+
+        .flex {
+            display: -webkit-box;
+            display: -moz-box;
+            display: box;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            -moz-flex-flow: row wrap;
+            flex-flow: row wrap;
+        }
+
+        .size(@width) {
+            -webkit-flex: 0 @width;
+            -moz-flex: 0 @width;
+            -ms-flex: 0 @width;
+            flex: 0 @width;
+            width: @width;
+        }
+
+        .overlay {
+            content: "";
+            background: fade(black, 60%);
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            position: absolute;
+        }
+
+        .button-primary {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 16px;
+            padding: 10px 30px !important;
+            letter-spacing: 1px;
+            font-weight: 500;
+            background: @black;
+            color: white;
+            border: 1px solid @black;
+            text-transform: uppercase;
+            .size(auto);
+
+            &:after {
+                content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=white&height=32');
+                margin-left: 10px;
+                top: 5px;
+                position: relative;
+            }
+        }
+
+        .button-secondary {
+            .button-primary;
+            background: transparent;
+            color: white;
+            border-color: white;
+        }
+
+        .button-third {
+            .button-primary;
+            color: @black;
+            background: transparent;
+
+            &:after {
+                content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=black&height=32');
+            }
+        }
+
+        h1 {
+            .h1
+        }
+
+        h2 {
+            .h2
+        }
+
+        h3 {
+            .h3
+        }
+
+        h4 {
+            .h4
+        }
+
+        &.liftoff {
+            header.header {
+                background: fade(@black, 90%);
+            }
+        }
+
+        &:not(.home) {
+            header.header {
+                position: relative;
+                background: white;
+
+                .hfg_header.site-header {
+                    .nv-nav-wrap {
+                        .menu-item {
+                            a {
+                                color: @black;
+                            }
+                        }
+                    }
+                    
+                    .builder-item.hfg-item-first {
+                        background: @black;
+                        .site-logo {
+                            justify-content: center;
+                        }
+                    }
+
+                    .nv-html-content {
+                        p {
+                            color: @black;
+
+                            a {
+                                color: @black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+            // Header Styles
+            header.header {
+                position: fixed;
+                left: 0;
+                right: 0;
+                top: 0;
+                z-index: 10;
+                transition: all 0.3s ease;
+
+                .hfg-item-last {
+                    justify-content: flex-end;
+
+                    .item--inner {
+                        margin-left: 30px;
+                    }
+                }
+
+                .button-primary {
+                    &:after {
+                        display: none;
+                    }
+                }
+
+                .hfg_header.site-header {
+                    box-shadow: none;
+
+                    .builder-item {
+                        padding: 10px;
+                    }
+
+                    .nv-nav-wrap {
+                        .menu-item {
+                            a {
+                                color: white;
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                font-weight: 400;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+                        li:not(:last-of-type) {
+                            margin-right: 30px;
+                        }
+                    }
+
+                    .nv-html-content {
+                        p {
+                            color: white;
+
+                            a {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Main Content
+            main#content {
+                .entry-content {
+
+                    #sectionHero {
+                        position: relative;
+                        min-height: 400px;
+
+                        &:before {
+                            content: "";
+                            background: transparent linear-gradient(0deg, fade(black, 0) 0%, fade(black, 80%) 100%) 0% 0% no-repeat padding-box;
+                            left: 0;
+                            right: 0;
+                            height: 150px;
+                            z-index: 9;
+                            top: 0;
+                            position: absolute;
+                        }
+
+                        ul {
+                            padding: 0;
+                            margin: 0;
+
+                            li {
+                                display: inline-block;
+                                color: white;
+                                padding-right: 100px;
+                                font-size: 24px;
+                                color: white;
+                                position: relative;
+
+                                &:after {
+                                    content: "";
+                                    display: block;
+                                    width: 60px;
+                                    height: 2px;
+                                    background: white;
+                                    margin-left: 20px;
+                                    position: absolute;
+                                    right: 20px;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                }
+
+                                &:last-child {
+                                    &:after {
+                                        display: none;
+                                    }
+                                }
+
+                                .btn-arrow {
+                                    .button-primary;
+                                }
+                            }
+                        }
+                    }
+
+                    #sectionIntro {
+                        position: relative;
+
+                        * {
+                            color: white;
+                        }
+
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            width: 0;
+                            height: 0;
+                            border-style: solid;
+                            border-width: 100px 50vw 0px 0;
+                            border-color: transparent #fff transparent transparent;
+                        }
+
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 0;
+                            height: 0;
+                            border-style: solid;
+                            border-width: 100px 0 0px 50vw;
+                            border-color: transparent transparent transparent #fff;
+                        }
+
+                        .panel-grid-cell {
+                            position: relative;
+
+                            img {
+                                width: 400px;
+                            }
+
+                            ul {
+                                list-style: none;
+
+                                li {
+                                    display: inline-block;
+
+                                    a {
+                                        .button-primary;
+                                    }
+
+                                    &:last-child {
+                                        a {
+                                            .button-secondary
+                                        }
+
+                                        ;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #sectionServices {
+                        position: relative;
+
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            background-image: url(/wp-content/themes/core50/assets/img/light-grey-square.svg);
+                            background-size: 8px;
+                            background-repeat: repeat;
+                            height: 180px;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            z-index: -1;
+                        }
+
+                        &:before {
+                            position: absolute;
+                            background-image: url(/wp-content/themes/core50/assets/img/red-square.svg);
+                            background-size: 8px;
+                            background-repeat: repeat;
+                            content: "";
+                            width: 100px;
+                            height: 500px;
+                            top: -30%;
+                            left: 0;
+                            z-index: 9;
+                        }
+
+                        .header-bg-text {
+                            position: relative;
+                            min-height: 200px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            &:before {
+                                content: "SERVICES";
+                                font-size: 130px;
+                                position: absolute;
+                                top: 50%;
+                                left: 0;
+                                right: 0;
+                                transform: translateY(-50%);
+                                font-weight: 900;
+                                color: grey;
+                                z-index: -1;
+                                opacity: 0.1;
+                            }
+                        }
+
+                        .featureImage {
+                            position: relative;
+
+                            &:before {
+                                position: absolute;
+                                background-image: url(/wp-content/themes/core50/assets/img/red-square.svg);
+                                background-size: 8px;
+                                background-repeat: repeat;
+                                content: "";
+                                width: 120px;
+                                height: 120px;
+                                top: -60px;
+                                left: -60px;
+                                z-index: -1;
+                            }
+                        }
+
+                        #serviceContainer {
+                            .so-panel {
+                                .flex;
+
+                                .service-block {
+                                    .size(20%);
+
+                                    .contain {
+                                        position: relative;
+                                        margin: 10px;
+                                        height: 200px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        text-align: center;
+                                        padding: 15px;
+
+                                        >a {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            flex-flow: column;
+                                            align-items: center;
+                                            height: 100%;
+                                            color: white;
+                                            ;
+                                        }
+
+                                        .icon {
+                                            img {
+                                                max-width: 60px;
+                                                padding-top: 30px;
+                                            }
+                                        }
+
+                                        .title {
+                                            text-align: left;
+                                        }
+
+                                        &:before {
+                                            .overlay;
+                                        }
+
+                                        a {
+                                            position: relative;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #sectionValues {
+                        position: relative;
+
+                        h2 {
+                            text-align: left;
+                            padding-bottom: 60px;
+                        }
+
+                        .button-primary {
+                            margin: 0 auto;
+                        }
+
+                        .textwidget {
+                            text-align: center;
+                        }
+
+                        &:before {
+                            position: absolute;
+                            content: "";
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            height: 40%;
+                            background: white;
+                            z-index: 9;
+                        }
+
+                        &:after {
+                            position: absolute;
+                            background-image: url(/wp-content/themes/core50/assets/img/red-square.svg);
+                            background-size: 8px;
+                            background-repeat: repeat;
+                            content: "";
+                            width: 100px;
+                            height: 500px;
+                            top: 50px;
+                            right: 0;
+                            z-index: 9;
+                        }
+
+                        .simpleParallax {
+                            &:before {
+                                .overlay;
+                                z-index: 9;
+                            }
+                        }
+
+                        .panel-grid-cell {
+                            position: relative;
+                            z-index: 10;
+
+                            h3 {
+                                font-size: 70px
+                            }
+
+                            .text-white h3 {
+                                color: white;
+                            }
+                        }
+                    }
+
+                    #sectionProjects {
+
+                        .header-bg-text {
+                            position: relative;
+                            text-align: center;
+                            min-height: 200px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            &:before {
+                                content: "PROJECTS";
+                                font-size: 130px;
+                                position: absolute;
+                                top: 50%;
+                                left: 0;
+                                right: 0;
+                                transform: translateY(-50%);
+                                font-weight: 900;
+                                color: grey;
+                                z-index: -1;
+                                opacity: 0.1;
+                            }
+                        }
+
+                        .textwidget {
+                            text-align: center;
+                        }
+
+                        .button-primary {
+                            margin: 0 auto;
+                        }
+
+                        #csLoop {
+                            .flex;
+                            justify-content: space-between;
+
+                            .cs-block {
+                                .size(31%);
+                                margin-bottom: 30px;
+                                position: relative;
+
+                                .cs-container {
+                                    position: relative;
+
+                                    &:before {
+                                        content: "";
+                                        position: absolute;
+                                        bottom: -20px;
+                                        left: -20px;
+                                        width: 50%;
+                                        height: 50%;
+                                        background: @lightblack;
+                                    }
+                                }
+
+                                &:first-child {
+                                    .size(100%);
+
+                                    .contain {
+                                        height: 500px;
+                                    }
+
+                                    .more {
+                                        position: absolute;
+                                        left: 0;
+                                        top: 0;
+                                        bottom: 0;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+
+                                        .title {
+                                            margin-left: -30px;
+                                        }
+
+                                        a.button-third {
+                                            position: absolute;
+                                            bottom: 30px;
+                                            left: 40px;
+                                            color: @lightgrey;
+
+                                            &:after {
+                                                content: url('https://api.iconify.design/la:long-arrow-alt-right.svg?color=grey&height=32');
+                                            }
+                                        }
+                                    }
+
+                                    h4 {
+                                        .h1;
+
+                                    }
+
+                                    .cs-container {
+                                        &:before {
+                                            width: 35%;
+                                            left: auto;
+                                            right: -20px;
+                                        }
+                                    }
+                                }
+
+                                .contain {
+                                    height: 350px;
+                                    width: 100%;
+                                    filter: grayscale(1);
+                                    background-size: cover;
+                                    position: relative;
+
+                                    a {
+                                        display: inline-block;
+                                        width: 100%;
+                                        height: 100%;
+                                        background: fade(@black, 40%);
+                                    }
+                                }
+
+                                .more {
+                                    margin-top: 30px;
+
+                                    h4 {
+                                        font-weight: 900;
+                                        margin: 0;
+
+                                        a {
+                                            color: @black;
+                                        }
+                                    }
+
+                                    .button-third {
+                                        padding: 0 !important;
+                                        border: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #sectionPartners {
+                        position: relative;
+                        background-image: url('/wp-content/themes/core50/assets/img/light-grey-square.svg');
+                        background-size: 8px;
+                        background-repeat: repeat;
+
+                        #sectionPartnerInner {
+                            position: relative;
+
+                            &:before {
+                                content: "";
+                                background: @lightgrey;
+                                left: 0;
+                                top: 30px;
+                                bottom: 30px;
+                                width: 35%;
+                                position: absolute;
+                                z-index: 1;
+                            }
+
+                            .panel-grid-cell {
+                                position: relative;
+                                z-index: 2;
+
+                                h2 {
+                                    color: white;
+                                }
+                            }
+                        }
+
+
+                    }
+
+                    #sectionForm {
+                        position: relative;
+
+                        &:before {
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            bottom: 0;
+                            width: 30%;
+                            content: "";
+                            background: white;
+                            z-index: 1;
+                        }
+
+                        #sectionFormInner {
+                            position: relative;
+                            text-align: center;
+
+                            &:before {
+                                .overlay;
+                            }
+
+                            >.panel-grid-cell:first-child {
+                                position: relative;
+
+                                &:after {
+                                    position: absolute;
+                                    background-image: url('/wp-content/themes/core50/assets/img/red-square.svg');
+                                    background-size: 8px;
+                                    background-repeat: repeat;
+                                    content: "";
+                                    width: 150px;
+                                    height: 150px;
+                                    bottom: -80px;
+                                    left: -80px;
+                                    z-index: 1;
+                                }
+                            }
+
+
+                            .so-panel {
+                                position: relative;
+
+                                h2 {
+                                    color: white;
+                                    font-weight: 800;
+                                }
+
+                                img {
+                                    width: 450px;
+                                }
+
+                                #coreForm {
+                                    text-align: left;
+                                    z-index: 9;
+                                    position: relative;
+
+                                    h3 {
+                                        color: @black;
+                                    }
+
+                                    #gform_submit_button_1 {
+                                        .button-primary
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+            }
+
+            // Footer Styles
+            footer#site-footer {
+                background-image: url('/wp-content/uploads/2021/05/black-bg.png');
+                background-color: unset;
+                color: white;
+
+                img {
+                    max-width: 220px !important;
+                }
+
+                * {
+                    color: white;
+                }
+
+                ul#menu-services li {
+                    width: 50%;
+                    float: left;
+                }
+
+                .footer-top-inner {
+                    background: none;
+                    padding: 60px 0;
+                }
+
+                p.widget-title {
+                    .h3;
+                    color: white;
+                    padding-bottom: 20px;
+                    margin-bottom: 30px;
+                    position: relative;
+
+                    &:after {
+                        content: "";
+                        width: 50px;
+                        height: 3px;
+                        background: white;
+                        bottom: 0;
+                        left: 0;
+                        position: absolute;
+                    }
+                }
+
+                .container {
+                    max-width: 1408px;
+                    padding: 0;
+
+                    .builder-item {
+                        padding: 0 15px 0 0;
+                    }
+                }
+
+                .nv-footer-content {
+                    align-items: self-start;
+                    justify-content: flex-start;
+                    display: flex;
+                }
+
+                .footer-content-wrap {
+                    position: relative;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        width: 55px;
+                        height: 100px;
+                        background-image: url('/wp-content/themes/core50/assets/img/light-grey-square.svg');
+                        background-size: 8px;
+                        background-repeat: repeat;
+                    }
+                }
+            }
+
+            // Copy Styling
+            .copyright {
+                background: @black;
+                color: white;
+                ;
+                padding: 30px 0;
+                text-align: center;
+
+                .flex {
+                    justify-content: space-between;
+                    align-items: center;
+
+                    a {
+                        color: white;
+                    }
+                }
+            }
+
+        }
+    }
